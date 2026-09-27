@@ -14,8 +14,19 @@ def subtract():
         print(f"Result: {num1} - {num2} = {num1 - num2}")
     except ValueError:
         print("Error: Invalid input. Please enter numeric values.")
-def multiply(): pass
-def divide(): pass
+def multiply():
+    print("\n--- Multiplication ---")
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        print(f"Result: {num1} * {num2} = {num1 * num2}")
+    except ValueError:
+        print("Error: Invalid input. Please enter numeric values.")
+def divide():
+    print("\n--- Division ---")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    print(f"Result: {num1} / {num2} = {num1 / num2}")
 
 while True:
     print("\n--- Calculator Master ---")
