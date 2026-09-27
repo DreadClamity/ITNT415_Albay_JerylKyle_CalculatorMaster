@@ -25,6 +25,21 @@
 
 ---
 
+## 📸 Sample Execution
+
+<p align="center">
+  <img src="Screenshot 2026-09-28 004202.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004229.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004310.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004340.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004401.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004522.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004542.png" alt="Calculator Execution" width="600">
+  <img src="Screenshot 2026-09-28 004606.png" alt="Calculator Execution" width="600">
+</p>
+
+---
+
 ## 🗂️ Git Branch Architecture
 The project follows a strict branching strategy, ensuring all features are developed independently before being merged into `main` via Pull Requests:
 
