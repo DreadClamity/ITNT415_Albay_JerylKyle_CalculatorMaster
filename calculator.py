@@ -1,8 +1,11 @@
 def add():
     print("\n--- Addition ---")
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    print(f"Result: {num1} + {num2} = {num1 + num2}")
+    try:
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        print(f"Result: {num1} + {num2} = {num1 + num2}")
+    except ValueError:
+        print("Error: Invalid input. Please enter numeric values.")
 def subtract(): pass
 def multiply(): pass
 def divide(): pass
