@@ -54,24 +54,24 @@ def show_result(a, op, b, result):
 def add():
     a = get_number("First number:")
     b = get_number("Second number:")
-    show_result(a, "+", b, a + b)
+    show_result("The Sum of "a, "+", b, a + b)
 
 def subtract():
     a = get_number("First number:")
     b = get_number("Second number:")
-    show_result(a, "-", b, a - b)
+    show_result("The Difference of "a, "-", b, a - b)
 
 def multiply():
     a = get_number("First number:")
     b = get_number("Second number:")
-    show_result(a, "×", b, a * b)
+    show_result("The Product of "a, "×", b, a * b)
 
 def divide():
     a = get_number("First number:")
     b = get_number("Second number:")
     try:
         result = a / b
-        show_result(a, "÷", b, result)
+        show_result("The Quotient of "a, "÷", b, result)
     except ZeroDivisionError:
         print(f"\n  {Color.RED}✗ Error: Cannot divide by zero.{Color.RESET}")
         input(f"\n  {Color.DIM}Press Enter to continue...{Color.RESET}")
