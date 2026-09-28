@@ -14,7 +14,7 @@
 ---
 
 ## 👨‍💻 Student Profile
-* **Name:** Jeryl Kyle Dela Cruz Albay
+* **Name:** Jeryl Kyle D. Albay
 * **Course & Program:** Bachelor of Science in Information Technology (Networking)
 * **Course Code & Section:** S-ITNT415
 
